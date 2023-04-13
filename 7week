@@ -7,7 +7,7 @@ void print_stars() {
 }
 int main(void) {
   print_stars();
-  printf("Hello World!");
+  printf("\nHello World!\n");
   print_stars();
   printf("\n");
 return 0;
