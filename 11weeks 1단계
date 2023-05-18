@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int s, e;
+  scanf("%d %d", &s, &e);
+  if (s>=2 && s<=9 && e>=2 && e<=9){
+    printf("true");
+  }
+   else if (2>=s || s<=9 || 2>=e || e<=9) {
+  printf("input error!");
+  }
+  
+}
